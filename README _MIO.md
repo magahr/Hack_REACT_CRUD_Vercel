@@ -24,6 +24,10 @@
          
         npm install
 
+2.- Inicar el servidor
+    
+    
+3.- 
 
 
 
