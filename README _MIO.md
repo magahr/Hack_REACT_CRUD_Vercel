@@ -26,8 +26,46 @@
 
 2.- Inicar el servidor
     
-    
-3.- 
+    npm run start
+
+3.- Instalar Router
+
+       npm install react-router-dom
+
+3.- Instalar Json server
+
+       json server github
+       https://github.com/typicode/json-server
+
+       hacer esto:
+          uno ejecutar:
+
+               npm install json-server
+
+           crear el archivo db.json or db.json5 file, en la raiz, con el contenido:
+
+                {
+                "users": [
+                    { "id": "1", "nombre": "Juan", "edad": 33, "correo": "juan123@gmail.com" },
+                    { "id": "2", "nombre": "Adrian", "edad": 31, "correo": "adrian123@gmail.com"},
+                    { "id": "2", "nombre": "Vanessa", "edad": 28, "correo": "vanessa123@gmail.com"}
+                ]
+                }
+
+           ejectuar el siguiente comando en bash:
+
+                npx json-server db.json --port 3004 (importante un puerto diferente al de la aplicacion, 
+                que por lo generarl es el pueto 3000)
+                haciendolo asi se va a generarl el server por el puerto 
+                    http://localhost:3004/users
+
+
+
+
+
+
+
+
 
 
 
@@ -81,3 +119,4 @@ Control de cambio:
 
 git commit -m "07-11-2024-Starting the project with react hack goog look!!"
 git commit -m "08-11-2024-Update the project in my job"
+git commit -m "08-11-2024-Update the project in my job. I going to 29:19 minutes"
