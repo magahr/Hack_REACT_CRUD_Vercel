@@ -71,7 +71,7 @@ function FormularioList(props){
                                             <td>{formulario.nombre}</td>
                                             <td>{formulario.edad}</td>
                                             <td>{formulario.correo}</td>
-                                            <td>{formulario.createdAt}</td>
+                                            {/*<td>{formulario.createdAt}</td>*/}
                                             <td style = {{width: "10px", whiteSpace: "nawrap"}}>
                                                 <button onClick={() => props.showForm(formulario)} type="button" className="btn btn-primary btn-sm me-2">Edit</button>
                                                 <button onClick={() => deleteFormulario(formulario.id)} type="button" className="btn btn-danger btn-sm">Delete</button>
@@ -134,12 +134,12 @@ function FormularioForm(props){
         }
         else { 
             //create a new product
-            formulario.createdAt = new Date().toISOString().slice(0, 10);
+           // formulario.createdAt = new Date().toISOString().slice(0, 10);
+           //formulario.createdAt = new Date().toISOString().slice(0, 10);
             fetch("http://localhost:3004/formularios", {
                 method: "POST", 
                 headers: {
                     "Content-Type": "application/json",
-
                 },
                 body: JSON.stringify(formulario)
             })
@@ -174,6 +174,7 @@ function FormularioForm(props){
                                        defaultValue={props.formulario.id}/>
                                 </div>
                             </div>}
+                           
                             <div className="row mb-3">
                                 <label className="col-sm-8 col-form-label">Nombre</label>
                                 <div className="col-sm-8">
