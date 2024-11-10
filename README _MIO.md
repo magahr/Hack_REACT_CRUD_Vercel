@@ -26,7 +26,11 @@
 
 2.- Inicar el servidor
     
-    npm run start
+    npm run start  (la app)
+
+    npx json-server db.json --port 3004 (el server de json)
+
+
 
 3.- Instalar Router
 
@@ -57,10 +61,12 @@
                 npx json-server db.json --port 3004 (importante un puerto diferente al de la aplicacion, 
                 que por lo generarl es el pueto 3000)
                 haciendolo asi se va a generarl el server por el puerto 
-                    http://localhost:3004/users
+                    http://localhost:3004/formularios
 
 
-
+4.- Usar 
+    
+    https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
 
 
 
@@ -120,3 +126,4 @@ Control de cambio:
 git commit -m "07-11-2024-Starting the project with react hack goog look!!"
 git commit -m "08-11-2024-Update the project in my job"
 git commit -m "08-11-2024-Update the project in my job. I going to 29:19 minutes"
+git commit -m "09-11-2024-Updating the project with Create, Updating and Deling, but Create is not very good, I have to reparing"
