@@ -33,6 +33,8 @@
     
     npm run start  (la app)
 
+    npm run dev (levanta los dos server al mismo tiempo)
+
     npx json-server db.json --port 3004 (el server de json)
 
 
