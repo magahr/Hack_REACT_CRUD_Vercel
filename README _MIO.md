@@ -39,6 +39,7 @@
 3.- Instalar Router
 
        npm install react-router-dom
+       npm install -g concurrently
 
 4.- Instalar Json server
 
@@ -79,4 +80,4 @@ git commit -m "07-11-2024-Starting the project with react hack goog look!!"
 git commit -m "08-11-2024-Update the project in my job"
 git commit -m "08-11-2024-Update the project in my job. I going to 29:19 minutes"
 git commit -m "09-11-2024-Updating the project with Create, Updating and Deling, but Create is not very good, I have to reparing"
-git commit -m "10-11-2024-Updating the project with Create, Updating and Deleting"
+**git commit -m "10-11-2024-Updating the project with Create, Updating and Deleting"**
