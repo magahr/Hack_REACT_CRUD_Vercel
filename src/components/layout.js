@@ -7,7 +7,7 @@ export function Navbar() {
     <nav className="navbar navbar-expand-lg navbar-light bg-white border-bottom box-shadow py-3 mb-3">
       <div className="container">   
 
-        <Link className="navbar-brand" to="/">App Vercel Sin BD v. 2</Link>
+        <Link className="navbar-brand" to="/">v.2 App Vercel Sin BD</Link>
         {/* ... resto del código ... */}
         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
           <li className="nav-item">
