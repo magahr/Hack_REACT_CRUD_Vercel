@@ -76,6 +76,20 @@
 
 
 
+https://hack-react-crud-vercel.vercel.app/formulario
+
+
+
+"scripts": {
+     "dev": "concurrently \"npm start\" \"json-server db.json --port 3004\"",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+
+  },
+
+
 Control de cambio:
 
 git commit -m "07-11-2024-Starting the project with react hack goog look!!"

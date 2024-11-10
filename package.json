@@ -14,7 +14,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-     "dev": "concurrently \"npm start\" \"json-server db.json --port 3004\"",
+     "dev": "concurrently \"npm start\" \"json-server db.json\"",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -41,3 +41,4 @@
   }
   
 }
+
