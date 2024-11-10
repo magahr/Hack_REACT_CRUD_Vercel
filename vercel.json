@@ -5,7 +5,7 @@
         },
         "output": "build",
         "env": {
-          "DB_JSON_PATH": "/Hack_REACT_CRUD_Vercel/db.json"},
+          "DB_JSON_PATH": "/db.json"},
         "scripts": {
             "dev": "concurrently \"npm start\" \"json-server db.json --port 3004\"",
            "start": "react-scripts start",
