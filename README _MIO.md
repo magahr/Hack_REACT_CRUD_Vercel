@@ -30,6 +30,8 @@
         npm install
 
 2.- Inicar el servidor
+
+    npm run build (si el directorio build no esta)
     
     npm run start  (la app)
 

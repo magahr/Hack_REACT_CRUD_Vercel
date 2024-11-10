@@ -1,0 +1,10 @@
+
+    {
+        "build": {
+          "command": "npm run build"
+        },
+        "output": "build",
+        "env": {
+          "DB_JSON_PATH": "/Hack_REACT_CRUD_Vercel/db.json"}
+      }
+  
