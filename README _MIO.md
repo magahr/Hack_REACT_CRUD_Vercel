@@ -1,6 +1,7 @@
 # Rutas_de_Desarrollo
 
-  Rutas en fospuca:
+  Rutas en trabajo:
+
       C:\Users\mhernandez.FOSPUCA\Documents\cursos\Ciclo08\Practica\hack\React
           
           Repo:
@@ -9,10 +10,14 @@
 
           
   Rutas en Casa:
+
+         C:\Users\Magahr\Documents\cursos\socialOplesk\socialOplesk\Ciclo08\Practicas\hacks\Hack_REACT_CRUD\Hack_REACT_CRUD_Vercel 
+
       
   link video:
 
       https://www.youtube.com/watch?v=Vjd7oXmCjmg
+
      
 1.- Instalación de React
    
@@ -31,12 +36,11 @@
     npx json-server db.json --port 3004 (el server de json)
 
 
-
 3.- Instalar Router
 
        npm install react-router-dom
 
-3.- Instalar Json server
+4.- Instalar Json server
 
        json server github
        https://github.com/typicode/json-server
@@ -60,66 +64,14 @@
 
                 npx json-server db.json --port 3004 (importante un puerto diferente al de la aplicacion, 
                 que por lo generarl es el pueto 3000)
-                haciendolo asi se va a generarl el server por el puerto 
+                haciendolo asi se va a generar el server por el puerto 
                     http://localhost:3004/formularios
 
-
-4.- Usar 
+5.- Usar 
     
     https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
 
 
-
-
-
-
-
-
-
-
-
-
-
-3.- Instalar axios
-    
-        npm install axios
-
-4.- Instalar Router
-
-       npm install react-router-dom
-
-5.- Instalar formik yup axios
-    npm install formik yup axios
-
-6.- Instalar Link
-    import { Link } from 'react-router-dom';
-
-2.- Inicar el servidor
-    npm run start
-
-    si no funciona el anterior intentar con:
-    npm init react-app my-app
-
-3.- Colocar las extensiones en Visual code
-    ES7 React/Redux/GraphQL/Rea
-    ES7+ React/Redux/React-Native snippets
-
-4.- A los componentes cambiarle la extension a .jsx, dajando al index con .js
-    (Esto facilita la creacnpion de las etiquetas HTML)
-
-5.- rutas:
-    https://reactrouter.com/en/main
-
-6.- boostrap
-    https://getbootstrap.com/
-
-7.- w3shool
-    https://www.w3schools.com/bootstrap5/index.php
-    
-git commit -m "14-10-2024 my first commit" 
-
-
-estensiones:
 
 Control de cambio:
 
@@ -127,3 +79,4 @@ git commit -m "07-11-2024-Starting the project with react hack goog look!!"
 git commit -m "08-11-2024-Update the project in my job"
 git commit -m "08-11-2024-Update the project in my job. I going to 29:19 minutes"
 git commit -m "09-11-2024-Updating the project with Create, Updating and Deling, but Create is not very good, I have to reparing"
+git commit -m "10-11-2024-Updating the project with Create, Updating and Deleting"

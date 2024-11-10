@@ -56,7 +56,7 @@ function FormularioList(props){
                 <table className="table">
                     <thead>
                         <tr>
-                            <th>ID</th>
+                           {/* aqui <th>ID</th> */} 
                             <th>Nombre</th>
                             <th>Edad</th>
                             <th>Correo</th>
@@ -67,7 +67,7 @@ function FormularioList(props){
                              formularios.map((formulario, index) => {
                                     return (
                                         <tr key={index}>
-                                            <td>{formulario.id}</td>
+                                          {/*aqui <td>{formulario.id}</td>*/ }  
                                             <td>{formulario.nombre}</td>
                                             <td>{formulario.edad}</td>
                                             <td>{formulario.correo}</td>
@@ -136,12 +136,16 @@ function FormularioForm(props){
             //create a new product
            // formulario.createdAt = new Date().toISOString().slice(0, 10);
            //formulario.createdAt = new Date().toISOString().slice(0, 10);
+                     
+        // hasta aqui Leer el JSON existente
+
             fetch("http://localhost:3004/formularios", {
                 method: "POST", 
                 headers: {
                     "Content-Type": "application/json",
                 },
                 body: JSON.stringify(formulario)
+               
             })
             .then((response) => {
                 if (!response.ok){
@@ -149,11 +153,13 @@ function FormularioForm(props){
                 }
                 return response.json()
             })
-            
-            .then((data) => props.showList())
+          
+            .then((data) => props.showList( ))
             .catch((error) => {
                 console.error("Error:", error);
             });
+
+
         }
     }
 
@@ -166,14 +172,15 @@ function FormularioForm(props){
                     <div className="col-lg-6 mx-auto">
                         {errorMessage}
                         <form onSubmit={(event) => handleSubmit(event)}>
-                           {props.formulario.id && <div className="row mb-3">
+                            {/* aqui {props.formulario.id && <div className="row mb-3">
                                 <label className="col-sm-8 col-form-label">ID</label>
                                 <div className="col-sm-8">
                                     <input readOnly className="form-control-plaintext"
                                        name="id"
                                        defaultValue={props.formulario.id}/>
                                 </div>
-                            </div>}
+                            </div>}    */}
+                          
                            
                             <div className="row mb-3">
                                 <label className="col-sm-8 col-form-label">Nombre</label>
