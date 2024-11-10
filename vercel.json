@@ -3,16 +3,9 @@
         "build": {
           "command": "npm run build"
         },
-        "output": "build",
         "env": {
-          "DB_JSON_PATH": "/db.json"},
-        "scripts": {
-            "dev": "concurrently \"npm start\" \"json-server db.json --port 3004\"",
-           "start": "react-scripts start",
-           "build": "react-scripts build",
-           "test": "react-scripts test",
-           "eject": "react-scripts eject"
-       
-         }
+          "DB_JSON_PATH": "/db.json"
+        }
+     
       }
   

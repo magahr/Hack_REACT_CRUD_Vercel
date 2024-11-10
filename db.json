@@ -23,6 +23,12 @@
       "nombre": "Juan",
       "edad": "33",
       "correo": "juan@gmail.com"
+    },
+    {
+      "id": "86f7",
+      "nombre": "pepito",
+      "edad": "33",
+      "correo": "pepito@gmail.com"
     }
   ]
 }
