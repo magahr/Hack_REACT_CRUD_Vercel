@@ -18,6 +18,8 @@
 
       https://www.youtube.com/watch?v=Vjd7oXmCjmg
 
+      https://www.youtube.com/watch?v=Tjl3HgxvMWM
+
      
 1.- Instalación de React
    
@@ -100,3 +102,4 @@ git commit -m "08-11-2024-Update the project in my job. I going to 29:19 minutes
 git commit -m "09-11-2024-Updating the project with Create, Updating and Deling, but Create is not very good, I have to reparing"
 **git commit -m "10-11-2024-Updating the project with Create, Updating and Deleting"**
 **git commit -m "10-11-2024-Updating the Vercel json"**
+git commit -m "11-11-2024-Updating dbjson"
