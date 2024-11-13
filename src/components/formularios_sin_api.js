@@ -22,7 +22,7 @@ function FormularioList(props){
     const [formularios, setFormularios] = useState([]);
     
     function fetchFormularios() {
-        fetch("https://formulario-api-rho.vercel.app/formularios")
+        fetch("http://localhost:3004/formularios")
         .then((response) => {
             if (!response.ok){
                 throw new Error("El Servidor no Responde");
@@ -40,7 +40,7 @@ function FormularioList(props){
     useEffect(() => fetchFormularios(), []);
 
     function deleteFormulario(id) {
-        fetch("https://formulario-api-rho.vercel.app/formularios/" + id, {
+        fetch("http://localhost:3004/formularios/" + id, {
             method: "DELETE"
             })
               .then((response) => response.json())
@@ -111,7 +111,7 @@ function FormularioForm(props){
         if (props.formulario.id) {
             //update the product
            
-            fetch("https://formulario-api-rho.vercel.app/formularios/" + props.formulario.id, {
+            fetch("http://localhost:3004/formularios/" + props.formulario.id, {
                 method: "PATCH", 
                 headers: {
                     "Content-Type": "application/json",
@@ -139,7 +139,7 @@ function FormularioForm(props){
                      
         // hasta aqui Leer el JSON existente
 
-            fetch("https://formulario-api-rho.vercel.app/formularios", {
+            fetch("http://localhost:3004/formularios", {
                 method: "POST", 
                 headers: {
                     "Content-Type": "application/json",
